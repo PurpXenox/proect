@@ -1,0 +1,210 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.nav_bar{
+    max-width: 450px;
+    display:flex;
+   gap: 29px;
+    align-items:center;
+    margin-inline: auto;
+    padding: 39px;
+    font-size: 20px; 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.info{
+    margin-inline: auto;
+    max-width: 792px;
+    display: block;
+    text-align: center;
+    padding-top: 213px;
+    align-items:center;
+}
+.titul{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 32px;
+
+}
+
+.button{
+    margin-top: 35px;
+    max-width: 204px;
+    align-items:center;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 30px;
+    margin-inline: auto;
+    max-height: 44px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.button_text{
+    color: white;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.logo{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-inline: auto;
+   font-size: 40px;
+   max-width: 500px;
+   margin-top: 120px; 
+}
+.about{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #666666;
+    font-size: 20px;
+    margin-inline: auto;
+    max-width: 1025px;
+    margin-top: 15px;
+    max-height: 107px;
+    text-align: center;
+}
+
+.product{
+    margin-top: 120px;
+    display: grid;
+    grid: (2 , 1fr);
+    grid-template-columns: 50% 50%;
+}
+.product_card{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #6666660D;
+    margin-inline: auto;
+    max-width: 600px;
+    max-height: 289px;
+}
+.name{
+    font-size: 40px;
+    margin-left: 26px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.grid{
+    
+display: grid;
+
+grid-template-columns: 30% 70%;
+}
+
+.info_product{
+    margin-bottom: 36px;
+    margin-top: 32px;
+    text-align: center;
+    font-size: 15px;
+    margin-right: 26px;
+}
+
+.button_info{
+    margin-left: 26px;   
+}
+.company{
+    background-color: #6666660D;
+    margin-top: 49px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.company_about{
+    padding-left: 54px;
+    padding-top: 37px;
+    padding-right: 79px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.company_name{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 48px;
+    color: orange;
+}
+.about_company{
+    font-size: 21px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.qst{
+    margin-top: 51px;
+    font-size: 40px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.qst_undr{
+    text-align: center;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.answers{
+    margin-top: 45px;
+    margin-inline: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    max-width: 1280px;
+}
+.card{
+    max-width: 175px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.Ph_biz{
+    font-size: 40px;
+}
+.clean_company{
+   padding-top: 18px;
+   padding-bottom: 13px;
+   padding-left:  27px;
+    background-color: orange;
+    display:grid;
+    grid-template-columns: 70% 30%;
+    max-height: 445px;
+}
+.about_clean{
+    margin-right: 73px;
+    max-height: 411px;
+    background-color:rgb(255,149,43);
+    max-width: 567px;
+}
+.text_clean{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    margin-right: 21px;
+    margin-left: 21px;
+    font-size: 23px;
+    margin-top: 11px;
+}
+.backcall{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 123px;
+    text-align: center;
+    font-size: 40px;
+    margin-inline: auto;
+    color: orange;
+}
+.call{
+    margin-top: 20px;
+    margin-inline: auto;
+    max-width: 800px;
+}
+.png{
+    display: grid;
+    grid-template-columns: 45% 55%;
+    max-width: 120px;
+    align-items: center;
+}
+.mail{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+.Phone{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+.geo{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
